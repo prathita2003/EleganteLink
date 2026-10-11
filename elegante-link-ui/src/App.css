@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #c8e4f1;
+  color: #222;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  width: 90%;
+  max-width: 850px;
+  margin: 70px auto;
+  flex: 1;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 35px;
+}
+
+.shorten-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+button {
+  padding: 13px 18px;
+  border: none;
+  border-radius: 5px;
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
+
+.result {
+  margin-top: 25px;
+  padding: 20px;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.result p {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.result-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.result-row a {
+  flex: 1;
+}
+
+section {
+  margin-top: 45px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.link-row {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.link-row span {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.link-row a {
+  min-width: 70px;
+}
+
+.link-row button {
+  padding: 8px 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 13px;
+}
